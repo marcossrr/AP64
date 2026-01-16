@@ -12,7 +12,7 @@ class Terrestre extends Bestia{
         return $this->habitat;
     }
 
-    public function setHabitat(){
+    public function setHabitat($habitat){
         $this->habitat = $habitat;
     }
 }

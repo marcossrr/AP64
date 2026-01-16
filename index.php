@@ -2,12 +2,15 @@
 require_once "autoload.php";
 session_start();
 
-$controller = new ProductoController();
+$controller = new BestiaController();
 
 $accion = $_GET['accion'] ?? 'index';
 
 switch ($accion) {
-    case 'avistamientos':
+    case 'index':
+        $controller->index();
+        break;
+    case 'avistamiento':
         $controller->avistamiento();
         break;
     case 'censo':
@@ -21,4 +24,5 @@ switch ($accion) {
         break;
     default:
         $controller->index();
+        break;
 }

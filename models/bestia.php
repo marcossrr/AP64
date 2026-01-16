@@ -29,19 +29,19 @@ class Bestia{
         return $this->estado_salud;
     }
 
-    public function setNombre(){
+    public function setNombre($nombre){
         $this->nombre = $nombre;
     }
 
-    public function setEspecie(){
+    public function setEspecie($especie){
         $this->especie = $especie;
     }
 
-    public function setNivel(){
+    public function setNivel($p_lvl){
         $this->p_lvl = $p_lvl;
     }
 
-    public function setSalud(){
+    public function setSalud($estado_salud){
         $this->estado_salud = $estado_salud;
     }
 

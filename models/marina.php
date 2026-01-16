@@ -12,7 +12,7 @@ class Marina extends Bestia{
         return $this->profundidad_max;
     }
 
-    public function setProfundidad(){
+    public function setProfundidad($profundidad_max){
         $this->profundidad_max = $profundidad_max;
     }
 }

@@ -12,7 +12,7 @@ class Voladora extends Bestia{
         return $this->enver_alas;
     }
 
-    public function setAlas(){
+    public function setAlas($enver_alas){
         $this->enver_alas = $enver_alas;
     }
 }
