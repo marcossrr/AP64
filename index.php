@@ -19,7 +19,7 @@ switch ($accion) {
     case 'liberar':
         $controller->liberar();
         break;
-    case 'Sanacion':
+    case 'sanacion':
         $controller->sanacion();
         break;
     default:

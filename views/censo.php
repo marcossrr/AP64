@@ -14,7 +14,7 @@
             <th>Especie</th>
             <th>Nivel de Peligrosidad</th>
             <th>Estado de Salud</th>
-            <th>Acciones</th>
+            <th>Acciones</th> 
         </tr>
 
         <?php if (!empty($bestias)): ?>

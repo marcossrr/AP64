@@ -6,18 +6,18 @@
 <body>
     <h1>Sanar Bestia</h1>
 
-    <form method="POST">
+    <form method="POST" action="index.php?accion=sanacion" style="display:inline;">
         Nombre:<br>
-        <input type="text" name="nombre" value="<?= $producto->getNombre() ?>" required><br><br>
+        <input type="text" name="nombre" value="<?= $bestia->getNombre() ?>" required><br><br>
 
         Especie:<br>
-        <input type="text" name="especie" value="<?= $producto->getEspecie() ?>" required><br><br>
+        <input type="text" name="especie" value="<?= $bestia->getEspecie() ?>" required><br><br>
 
         Salud:<br>
-        <input type="text" name="estado_salud" value="<?= $producto->getSalud() ?>" required><br><br>
+        <input type="text" name="estado_salud" value="<?= $bestia->getSalud() ?>" required><br><br>
 
         Nivel de peligrosidad:<br>
-        <input type="number" step="1" name="nivel_peligrosidad" value="<?= $producto->getNivel() ?>" required><br><br>
+        <input type="number" step="1" name="nivel_peligrosidad" value="<?= $bestia->getNivel() ?>" required><br><br>
 
         <button type="submit">Actualizar</button>
     </form>
